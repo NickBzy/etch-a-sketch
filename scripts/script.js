@@ -16,7 +16,13 @@ const allItems = document.querySelectorAll(".grid-item");
 
 allItems.forEach(div => {
     div.addEventListener("mouseover", function(e){
-        e.target.classList.add("grid-item-hover");
         e.target.style.backgroundColor = "black";
     });
 });
+
+const clearButton = document.querySelector(".reset button");
+clearButton.addEventListener("click", function(e){
+    allItems.forEach(div => {
+        div.style.backgroundColor = "white"
+    })
+})
