@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color: #F8F3D9;
+}
+
+h1 {
+    text-align: center;
+    color: #504B38;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.console {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #504B38;
+    width: 80vw;
+    max-width: 800px;
+    min-width: 300px;
+    border-radius: 32px;
+
+    aspect-ratio: 1 / 1;
+}
+
+.settings {
+    background-color: #B9B28A;
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 32px;
+
+    aspect-ratio: 5 / 1;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: grey;
+    width: 85%;
+    height: 85%;
+}
+
+.test {
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
