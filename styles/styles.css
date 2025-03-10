@@ -49,9 +49,13 @@ h1 {
     height: 85%;
 }
 
-.test {
+.grid-item {
     background-color: white;
     border-top: 1px solid black;
     border-left: 1px solid black;
     box-sizing: border-box;
+}
+
+.grid-item-hover {
+    background-color: black;
 }
