@@ -14,9 +14,30 @@
             </div>
         </div>
         <div class="settings">
+            <div class="grid-size">
+                <p>Grid size: <span id="display-grid-size">10 x 10</span></p>
+                <input type="range" min="10" max="100" value="10" step="10" id="current-grid-size">
+            </div>
+
             <div class="reset">
                 <p>Clear</p>
                 <button></button>
+            </div>
+
+            <div class="rainbow">
+                <p>Rainbow mode</p>
+                <label class="switch">
+                    <input id="rainbow-mode" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="grid-lines">
+                <p>Show/Hide grid lines</p>
+                <label class="switch">
+                    <input id="grid-lines" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
             </div>
         </div>
     </div>
